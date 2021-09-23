@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ======== SWIPER CSS ============ -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!-- ======== BOX ICONS ============ -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- ======== CSS ============ -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Satinder Singh</title>
+</head>
+
+<body>
+    <!-- ======== SCROLL TOP ============ -->
+    <a href="" class="scrolltop" id="scroll-top">
+        <i class='bx bxs-chevron-up scrolltop__icon'></i>
+    </a>
+
+    <!-- ======== HEADER ============ -->
+
+    <!-- header.l-header#header -->
+    <header class="l-header" id="header">
+        <!-- nav.nav.bd-container -->
+        <nav class="nav bd-container">
+            <!-- a.nav__logog -->
+            <a href="#" class="nav__logo">Satinder Singh</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Services</a> </li>
+                    <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!-- ======== HOME ============ -->
+        <section class="home" id="home">
+            <div class="home__container bd-container bd-grid">
+                <div class="home__data">
+                    <span class="home__greeting">Hello, &nbsp;I'm</span>
+                    <h1 class="home__name">SATINDER SINGH</h1>
+                    <span class="home__animation_text">
+                        <span class="home__profession typing"></span>
+                        <span class="home__profession">&nbsp;&nbsp;Developer</span>
+                    </span>
+                    <a download="" href="assets/pdf/wcv_satinder.pdf" class="button button-light home__button">Download
+                        Cv</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.facebook.com/satindersingh.jatt.7/" class="home__social-icon"><i
+                            class='bx bxl-facebook'></i></a>
+                    <a href="https://www.instagram.com/international_jatt6212/" class="home__social-icon"><i
+                            class='bx bxl-instagram'></i></a>
+                    <a href="https://www.linkedin.com/in/satinder-singh-b80944199/" class="home__social-icon"><i
+                            class='bx bxl-linkedin-square'></i></a>
+                    <a href="https://github.com/satinder1624" class="home__social-icon"><i
+                            class='bx bxl-github'></i></a>
+                    <a href="https://www.youtube.com/channel/UCJeKTVtVCRqhki41Bq45nMA/videos"
+                        class="home__social-icon"><i class='bx bxl-youtube'></i></a>
+                </div>
+
+                <div class="home__img">
+                    <img src="assets/images/home.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- ======== ABOUT ============ -->
+        <section class="about section bd-container" id="about">
+            <span class="section-subtitle" data-aos="fade-up">My History</span>
+            <h2 class="section-title animate__animated animate__bounce" data-aos="fade-down">About me</h2>
+            <!-- <h2 class="section-title scale-in-hor-left">About me</h2> -->
+            <div class="about__container bd-grid">
+                <div class="about__data bd-grid">
+                    <p class="about__description" data-aos="zoom-in">
+                        <!-- <p class="about__description scale-in-hor-left"> -->
+                        <span>Hello, I am a<br></span>
+                        MERN stack, web developer. For me, programming is kind of fun. I never feel programming as a
+                        workload but
+                        as a satisfaction tool for my mind. I enjoy the front-end more as compare to the back-end.
+                        <br><br>
+                        If there is a situation where I think that I can not develop that page or solved that
+                        programming problem then
+                        I just have to recall my own quote, "In the programming world, nothing is impossible".
+                        This gives me never give up attitude, so I just sit back divide the problems into smaller parts,
+                        making logics and
+                        algorithms, and at the end of the day I found my solution.
+                    </p>
+
+                    <div class="about__awards" data-aos="fade-up">
+                        <div class="flex_row_1">
+                            <div>
+                                <span class="about__number">05</span>
+                                <span class="about__achievement">Years of Experience</span>
+                            </div>
+
+                            <div>
+                                <span class="about__number">08</span>
+                                <span class="about__achievement">Projects completes </span>
+                            </div>
+                        </div>
+
+                        <div class="flex_row_2">
+                            <div>
+                                <span class="about__number">01</span>
+                                <span class="about__achievement">Best work awards</span>
+                            </div>
+                            <div>
+                                <span class="about__number">01</span>
+                                <span class="about__achievement">Academy awards</span>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+                <img src="assets/images/about.jpg" alt="" class="about__img" data-aos="flip-right">
+                <!-- <img src="assets/images/about.jpg" alt="" class="about__img animated flip"> -->
+            </div>
+        </section>
+        <!-- ======== Skill ============ -->
+        <section class="qualification section bd-container">
+            <span class="section-subtitle" data-aos="fade-up">Technical</span>
+            <h2 class="section-title" data-aos="fade-down">Skills</h2>
+
+            <div>
+                <!-- Programming -->
+                <div>
+                    <h2 class="qualification__title">
+                        <i class='bx bx-code-alt bx-spin bx-flip-vertical programinngIcon'></i>
+                        Programming Languages
+                    </h2>
+
+                    <div class="ProgrammingSection">
+                        <div class="programinn__lists">
+
+                            <div class="item">
+                                <div class="ProgrammingSkills">
+                                    <i class='bx bxl-html5 programinng-icon'></i>
+                                </div>
+                                <h4>HTML5</h4>
+                            </div>     
+                            
+                            <div class="item">
+                                <div class="ProgrammingSkills">
+                                    <i class='bx bxl-css3 programinng-icon'></i>
+                                </div>
+                                <h4>CSS3</h4>
+                            </div>
+                        
+                              
+                            
+                            <div class="item">
+                                <div class="ProgrammingSkills">
+                                    <i class='bx bxl-javascript programinng-icon'></i>
+                                </div>
+                                <h4>JavaScript</h4>
+                            </div>
+                    
+                            
+                            <div class="item">
+                                <div class="ProgrammingSkills">
+                                    <i class="fab fa-java programinng-icon"></i>
+                                </div>
+                                <h4>Java</h4>                              
+                            </div>
+                        
+                              
+                            
+                            <div class="item">
+                                <div class="ProgrammingSkills">
+                                    <i class='bx bxl-python programinng-icon'></i>
+                                </div>                           
+                                <h4>Python</h4>
+                            </div>
+                        
+                              
+                            
+                            <div class="item">
+                                <div class="ProgrammingSkills">
+                                <img class='programinng-icon-img' src="../assets/images/dart.png" alt="">
+                                </div>
+                                <h4>Dart</h4>
+                            </div>
+                            
+                            
+
+                            
+
+                        </div>
+                    </div>
+                </div>                
+                
+            </div>
+            
+        </section>
+        <!-- ======== QUALIFICATION ============ -->
+        <section class="qualification section bd-container">
+            <span class="section-subtitle" data-aos="fade-up">Experience and education</span>
+            <h2 class="section-title" data-aos="fade-down">Qualification</h2>
+
+            <div class="qualification__container bd-grid">
+                <div class="qualification__content" data-aos="fade-down-right">
+                    <h2 class="qualification__title">
+
+                        <i class='bx bx-briefcase-alt qualification__title-icon'></i>
+                        Work Experience
+                    </h2>
+
+                    <div class="bd-grid">
+
+                        <div class="qualification__data">
+                            <h3 class="qualification__area">Front End App and Web Developer</h3>
+                            <div class="qualification__box">
+                                <span class="qualification__work">
+                                    <i class='bx bxs-business qualification__title-icon'></i>
+                                    <a href='https://www.linkedin.com/company/intelligent-innovations-lab/'
+                                        target="_blank">Intelligent
+                                        Innovations Lab</a> - Upaid Internship
+                                </span>
+                                <span class="qualification__work">
+                                    Feb 2021 - Aug 2021
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="qualification__content" data-aos="fade-down-left">
+                    <h2 class="qualification__title">
+                        <i class='bx bx-book-bookmark qualification__title-icon'></i>
+                        Education
+                    </h2>
+
+                    <div class="bd-grid">
+
+                        <div class="qualification__data">
+                            <h3 class="qualification__area">Computer System Technician - Software Support</h3>
+                            <div class="qualification__box">
+                                <span class="qualification__work">
+                                    <!-- <i class='bx bx-book-alt qualification__title-icon'></i> -->
+                                    <i class='bx bxs-school qualification__title-icon'></i>
+                                    <a href='https://www.mohawkcollege.ca/' target="_blank">Mohawk College</a>
+                                </span>
+                                <span class="qualification__work">
+                                    <!-- <i class='bx bx-briefcase-alt qualification__title-icon'></i> -->
+                                    Jan 2020 - Dec 2021
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="qualification__data">
+                            <h3 class="qualification__area">Self Taught Programmer</h3>
+                            <div class="qualification__box">
+                                <span class="qualification__work">
+                                    <i class='bx bx-world qualification__title-icon'></i>
+                                    <!-- <i class='bx bx-book-alt qualification__title-icon'></i> -->
+                                    Online
+                                </span>
+                                <span class="qualification__work">
+
+                                    2018 - Present
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- ======== SERVICES ============ -->
+        <section class="services section bd-container" id='services'>
+            <span class="section-subtitle" data-aos="fade-up">What i offer</span>
+            <h2 class="section-title" data-aos="fade-down">Services</h2>
+
+            <div class="services__container bd-grid">
+                <div class="services__data" data-aos="flip-left">
+                    <i class='bx bx-laptop services_icon'></i>
+                    <h3 class="services__title" data-aos="flip-right">Web developemnt</h3>
+                    <p class="services__description" data-aos="flip-right">Service that I offer and work, with years of
+                        ecperience in the work
+                        area.</p>
+                    <a href="#" class="button">Order Now</a>
+                </div>
+                <div class="services__data" data-aos="flip-right">
+                    <i class='bx bx-mobile services_icon'></i>
+                    <h3 class="services__title" data-aos="flip-left">App developemnt</h3>
+                    <p class="services__description" data-aos="flip-left">Service that I offer and work, with years of
+                        ecperience in the work
+                        area.</p>
+                    <a href="#" class="button">Know More</a>
+                </div>
+            </div>
+        </section>
+        <!-- ======== PROJECT IN MIND ============ -->
+        <section class="project section bd-container">
+            <div class="project__container bd-grid" data-aos="zoom-in-down">
+                <div class="project__data" data-aos="zoom-in-down">
+                    <i class="bx bx-chat project__icon"></i>
+
+                    <div>
+                        <h2 class="project__title">
+                            Project in mind
+                        </h2>
+                        <p class="project__description">Hire mw to carry out the following projects.</p>
+                    </div>
+
+                    <div>
+                        <a href="" class="button button-white">Hire me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ======== PORTFOLIO ============ -->
+        <section class="portfolio section bd-container" id='portfolio'>
+            <span class="section-subtitle" data-aos="fade-up">My recent works</span>
+            <h2 class="section-title" data-aos="fade-down">Portfolio</h2>
+
+            <div class="portfolio__nav" data-aos="zoom-in-down">
+                <span class="portfolio__item active-portfolio" data-filter='all'>All</span>
+                <span class="portfolio__item" data-filter='.web'>Web</span>
+                <span class="portfolio__item" data-filter='.ux'>Ui/Ux</span>
+                <span class="portfolio__item" data-filter='.app'>App</span>
+            </div>
+
+            <div class="portfolio__container bd-grid" data-aos="zoom-out-down">
+
+                <div class="portfolio__content mix web">
+                    <a href=""><img src="assets/images//work1.jpg" alt="" class="portfolio__img"></a>
+                    <div class="portfolio__data">
+                        <span class="portfolio_subtitle">Web development</span>
+                        <a href="">
+                            <h2 class="portfolio__title">New portfolio of work done for a client</h2>
+                        </a>
+                        <a href="" class="button button-link">View Details</a>
+                    </div>
+                </div>
+
+                <div class="portfolio__content mix web">
+                    <a href=""><img src="assets/images//work2.jpg" alt="" class="portfolio__img"></a>
+                    <div class="portfolio__data">
+                        <span class="portfolio_subtitle">Web development</span>
+                        <a href="">
+                            <h2 class="portfolio__title">New portfolio of work done for a client</h2>
+                        </a>
+                        <a href="" class="button button-link">View Details</a>
+                    </div>
+                </div>
+
+                <div class="portfolio__content mix ux">
+                    <a href=""><img src="assets/images//work3.jpg" alt="" class="portfolio__img"></a>
+                    <div class="portfolio__data">
+                        <span class="portfolio_subtitle">Ux design</span>
+                        <a href="">
+                            <h2 class="portfolio__title">New portfolio of work done for a client</h2>
+                        </a>
+                        <a href="" class="button button-link">View Details</a>
+                    </div>
+                </div>
+
+                <div class="portfolio__content mix ux">
+                    <a href=""><img src="assets/images//work4.jpg" alt="" class="portfolio__img"></a>
+                    <div class="portfolio__data">
+                        <span class="portfolio_subtitle">Ux design</span>
+                        <a href="">
+                            <h2 class="portfolio__title">New portfolio of work done for a client</h2>
+                        </a>
+                        <a href="" class="button button-link">View Details</a>
+                    </div>
+                </div>
+
+                <div class="portfolio__content mix app">
+                    <a href=""><img src="assets/images//work5.jpg" alt="" class="portfolio__img"></a>
+                    <div class="portfolio__data">
+                        <span class="portfolio_subtitle">Mobile App</span>
+                        <a href="">
+                            <h2 class="portfolio__title">New portfolio of work done for a client</h2>
+                        </a>
+                        <a href="" class="button button-link">View Details</a>
+                    </div>
+                </div>
+
+                <div class="portfolio__content mix app">
+                    <a href=""><img src="assets/images//work6.jpg" alt="" class="portfolio__img"></a>
+                    <div class="portfolio__data">
+                        <span class="portfolio_subtitle">Mobile App</span>
+                        <a href="">
+                            <h2 class="portfolio__title">New portfolio of work done for a client</h2>
+                        </a>
+                        <a href="" class="button button-link">View Details</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ======== TESTIMONIAL ============ -->
+        <section class="testimonial section bd-container">
+            <span class="section-subtitle" data-aos="fade-up">Performance Reviews</span>
+            <h2 class="section-title" data-aos="fade-down">Recommendations</h2>
+
+            <div class="testimonial__container swiper-container" data-aos="zoom-in-left">
+                <div class="swiper-wrapper">
+                    <div class="testimonial__content swiper-slide" data-aos="zoom-out-right">
+                        <img src="assets/images/Selim.jpg" alt="" class="testimonial__img">
+                        <h3 class="testimonial_title">
+                            Dr. Maher Selim
+                        </h3>
+                        <span class="testimonial__client">CEO</span>
+                        <p class="testimonial__description">
+                            Satinder Singh trained and worked in the Intelligent Innovations Lab under my supervision.
+                            During that time, he
+                            developed and added to his large experience new skills at development using Google Flutter
+                            and Firebase platform, and is
+                            efficient especially in JIRA, Agile methodology, and GitHub throughout this period.
+                        </p>
+                    </div>
+
+                    <div class="testimonial__content swiper-slide" data-aos="zoom-out-right">
+                        <img src="assets/images/Anurag.jpg" alt="" class="testimonial__img">
+                        <h3 class="testimonial_title">
+                            Anurag Mishra
+                        </h3>
+                        <span class="testimonial__client">Colleague (Scrum Master)</span>
+                        <p class="testimonial__description">
+                            Satinder did an exceptional job as a Front-End/Back-End developer on recent projects.
+                            Satinder is a very productive
+                            person and is a multi-skilled person with vast knowledge. He is careful, proactive, self
+                            motivated and intelligent team
+                            player. It’s a pleasure working with Satinder as he is a customer-service oriented
+                            colleague.
+                        </p>
+                    </div>
+
+                    <div class="testimonial__content swiper-slide" data-aos="zoom-out-right">
+                        <img src="assets/images/Aleena.jpg" alt="" class="testimonial__img">
+                        <h3 class="testimonial_title">
+                            Aleena Aamir
+                        </h3>
+                        <span class="testimonial__client">Colleague (UX Designer)</span>
+                        <p class="testimonial__description">
+                            One of Satinder’s greatest strength is that he is a go-getter. He is not shy to ask
+                            questions and makes sure he has all
+                            the information necessary to complete his work. He is great at receiving feedback and
+                            implementing all the changes in a
+                            timely manner. He is very enthusiastic to learn which really shows on how far he’s come in
+                            his....
+                        </p>
+                    </div>
+
+                    <div class="testimonial__content swiper-slide" data-aos="zoom-out-right">
+                        <img src="assets/images/Prabjyot.jpg" alt="" class="testimonial__img">
+                        <h3 class="testimonial_title">
+                            Prabhjyot Walia
+                        </h3>
+                        <span class="testimonial__client">Colleague (Technical Specialist)</span>
+                        <p class="testimonial__description">
+                            Satinder’s never giving up and self learning attitude is remarkable! Have a look, even
+                            though you may not understand
+                            what he is saying, however you can feel how enthusiastic and entertaining is he.
+                            <br><br>
+                            Kudos to
+                            him!
+                            https://youtu.be/Gv0DTt-fO2M
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-pagination">
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ======== CONTACTME ============ -->
+        <section class="contact section bd-container" id="contact">
+            <span class="section-subtitle" data-aos="fade-up">For projects</span>
+            <h2 class="section-title" data-aos="fade-down">Contact Me</h2>
+
+            <div class="contact__container bd-grid">
+                <div class="contact__content bd-grid">
+                    <div class="contact__box" data-aos="flip-right">
+                        <i class='bx bx-home contact__icon'></i>
+                        <h3 class="contact__title">Location</h3>
+                        <span class="contact__description">
+                            <a href='https://www.google.com/maps/place/Hamilton,+ON'>Hamilton, ON/CA</a>
+                        </span>
+                    </div>
+
+                    <div class="contact__box" data-aos="flip-right">
+                        <i class='bx bx-phone contact__icon'></i>
+                        <h3 class="contact__title">Phone</h3>
+                        <span class="contact__description">
+                            <a href="tel:+14372405953">+1-437-240-5953</a>
+
+                        </span>
+                    </div>
+
+                    <div class="contact__box" data-aos="flip-right">
+                        <i class='bx bx-envelope contact__icon'></i>
+                        <h3 class="contact__title">Gmail</h3>
+                        <span class="contact__description">
+                            <a href="mailto:satinder1624@gmail.com">satinder1624@gmail.com</a>
+
+                        </span>
+                    </div>
+
+                    <div class="contact__box" data-aos="flip-right">
+                        <i class='bx bx-chat contact__icon'></i>
+                        <h3 class="contact__title">Chat</h3>
+                        <div>
+                            <a href="https://wa.me/+14372405953" class="contact__soical"><i
+                                    class='bx bxl-whatsapp-square'></i></a>
+                        </div>
+                    </div>
+
+                    <form action="mailto:satinder1624@gmail.com" method='POST' enctype="text/plain"
+                        class="contact__form">
+
+                        <div class="contact__inputs">
+                            <input type="text" placeholder="Name" class="contact__input">
+                            <input type="email" placeholder="Email" class="contact__input">
+                        </div>
+
+                        <div class="contact__inputs">
+                            <input type="text" placeholder="Project" class="contact__input">
+                            <input type="number" placeholder="Number" class="contact__input">
+                        </div>
+
+                        <textarea name="" id="" cols="0" rows="7" placeholder="Message"
+                            class="contact__input"></textarea>
+
+                        <input type="submit" value="Send Message" class="button contact__button">
+
+                    </form>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ======== FOOTER ============ -->
+    <footer class="footer">
+        <div class="footer__description bd-container">
+            <h1 class="footer__title" data-aos="zoom-out-right">Satinder Singh</h1>
+            <p class="footer__description" data-aos="zoom-out-left">I'm open to learning, adapt to work with the
+                team,freelance opportunities,
+                contract jobs and use skills to solve complex UI challenges and provide value to the growth of an
+                organization. Feel free to ask anything.</p>
+            <div class="footer__social">
+                <a href="#" class="footer__link"><i class='bx bxl-linkedin'></i></a>
+                <a href="#" class="footer__link"><i class='bx bxl-github'></i></a>
+                <a href="#" class="footer__link"><i class='bx bxl-dribbble'></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ======== MIXITUP FILTER ============ -->
+    <script src="assets/js/mixitup.min.js"></script>
+    <!-- ======== SWIPER JS ============ -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!-- ======== GSAP ============ -->
+    <script src="assets/js/gsap.min.js"></script>
+    <!-- ======== MAIN JS ============ -->
+    <script src='assets/js/main.js'></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!-- Databases -->
+            <div class="" data-aos="fade-down-right">
+                <h2 class="qualification__title">
+                    <i class='bx bx-data bx-spin programinngIcon'></i>
+                    <!-- <i class='bx bx-data bx-tada programinngIcon'></i> -->
+                    Databases
+                </h2>
+            
+                <div class="qualification__skill">
+                    <div class="qualification__skill-content-DB">
+                        <div class="qualification__programming-icon">
+                            <i class='bx bxl-html5 programinng-icon'></i>
+                        </div>
+                        <h4>Google Firebase</h4>
+                    </div>
+            
+                    <div class="qualification__skill-content-DB">
+                        <div class="qualification__programming-icon">
+                            <i class='bx bxl-css3 programinng-icon'></i>
+                        </div>
+                        <h4>MongoDB</h4>
+                    </div>
+            
+                    <div class="qualification__skill-content-DB">
+                        <div class="qualification__programming-icon">
+                            <i class='bx bxl-javascript programinng-icon'></i>
+                        </div>
+                        <h4>MySQL</h4>
+                    </div>
+            
+                    <div class="qualification__skill-content-DB">
+                        <div class="qualification__programming-icon">
+                            <i class="fab fa-java programinng-icon"></i>
+                        </div>
+                        <h4>Microsoft SQL Server</h4>
+                    </div>
+            
+                    <div class="qualification__skill-content-DB">
+                        <div class="qualification__programming-icon">
+            
+                            <i class='bx bxl-python programinng-icon'></i>
+                        </div>
+                        <h4>MariaDB</h4>
+                    </div>
+            
+                </div>
+            
+            
+            
+            </div>
