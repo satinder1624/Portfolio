@@ -155,7 +155,7 @@ img {
 #nav-menu {
   border-top: 2px solid red;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 864px) {
   .nav__menu {
     position: fixed;
     top: -100%;
@@ -849,7 +849,6 @@ a {
     justify-self: start;
   }
 }
-
 @media screen and (max-width: 800px) {
   .about__description {
     text-align: justify;
@@ -958,5 +957,11 @@ a {
 
   .qualification__container {
     column-gap: 6rem;
+  }
+}
+
+@media screen and (max-width: 864px) {
+  .nav__toggle {
+    display: block;
   }
 }
