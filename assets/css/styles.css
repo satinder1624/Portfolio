@@ -405,8 +405,11 @@ img {
 
 .about__img {
   justify-self: center;
-  width: 220px;
+
   border-radius: 0.5rem;
+  border: 2px solid black;
+  box-shadow: rgb(50 50 93 / 25%) 0px 2px 5px -1px,
+    rgb(0 0 0 / 30%) 0px 1px 3px -1px;
 }
 
 .about__awards {
@@ -779,6 +782,37 @@ a {
 .contact__button {
   cursor: pointer;
   border: none;
+}
+
+.loader {
+  border: 16px solid brown;
+  border-radius: 50%;
+  border-top: 16px solid #f3f3f3;
+  border-bottom: 16px solid #f3f3f3;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 /*===== FOOTER =====*/
 .footer {

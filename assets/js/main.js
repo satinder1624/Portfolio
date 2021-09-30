@@ -153,8 +153,8 @@ const swiper = new Swiper(".testimonial__container", {
   },
 });
 
-const send = (name, email, project, number, message) => {
-  Email.send({
+const send = async (name, email, project, number, message) => {
+  await Email.send({
     Host: "smtp.gmail.com",
     Username: "satinder1624@gmail.com",
     Password: "osnuxzdtvhedkbib",
@@ -162,7 +162,11 @@ const send = (name, email, project, number, message) => {
     From: "satinder1624@gmail.com",
     Subject: `${name} sent you a new message`,
     Body: `Name : ${name} <br/> Email: ${email} <br/> Project: ${project} <br/> Number: ${number} <br/> Message: ${message} <br/>`,
-  }).then(() => alert("mail sent successfully"));
+  }).then(() => {
+    let div = document.getElementById("contact-container");
+
+    alert("Mail sent successfully");
+  });
 };
 
 const submitForm = (e) => {
