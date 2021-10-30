@@ -999,3 +999,9 @@ a {
     display: block;
   }
 }
+
+/*  */
+.portfolio__data > ul {
+  list-style-type: disc;
+  margin-left: 0.5rem;
+}
